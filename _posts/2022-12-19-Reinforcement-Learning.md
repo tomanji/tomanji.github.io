@@ -21,9 +21,8 @@ Para estos modelos se pueden establecer dos tipos de formas de seleccionar conte
 
 * Exploración: intentar descubrir que puede gustarle al usuario
 * Explotación: utilizar lo que ya se del usuario para hacer una recomendación
-Hacer recomendaciones de exploración permiten conocer mas el usuario y generar mejor contenido a mayor plazo, a diferencia de otros modelos como ALS que abusan de la explotación.
 
-La explotación puede hacer que el usuario no consuma alternativas que puedan entregar una mayor recompensa.  Sin embargo, como se recomienda contenido que es relevante genera una recompensa que es a corto plazo pero segura. Por otro lado, la exploración podría causar que se recomiende contenido que no sea del agrado del usuario y este termine por abandonar el sistema, pero podríamos obtener conocimiento nuevo para familias de recomendaciones futuras que nos permita entregar un set de contenido para el futuro.
+La explotación puede hacer que el usuario no consuma alternativas que puedan entregar una mayor recompensa.  Sin embargo, como se recomienda contenido que es relevante genera una recompensa que es a corto plazo pero segura. Por otro lado, la exploración podría causar que se recomiende contenido que no sea del agrado del usuario y este termine por abandonar el sistema, pero podríamos obtener conocimiento nuevo para familias de recomendaciones futuras que nos permita entregar un set de contenido para el futuro. Hacer recomendaciones de exploración permiten conocer mas el usuario y generar mejor contenido a mayor plazo, a diferencia de otros modelos como ALS que abusan de la explotación.
 
 Es por todo lo anterior que lo que se busca es un balance entre exploración y explotación para optimizar de mejor manera las recomendaciones. Algunos conceptos claves de este tipo de modelos son:
 1.	Enviroment: ambiente de recomndeaciones y feedbacks
