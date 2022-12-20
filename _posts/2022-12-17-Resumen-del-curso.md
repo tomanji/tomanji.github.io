@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Aprendizaje Reforzado
+title: Resumen del curso
 ---
 
 Estos son algunos de los sistemas de recomendación que existen y que vimos en este curso:
+
 * Los primeros sistemas recomendadores surgieron en la década de los 90 a partir de la noción del filtrado colaborativo, donde se utilizan las interacciones históricas de los usuarios en el sistema para predecir y recomendar contenido que pueda ser de agrado para un usuario. Por una parte es posible generar recomendaciones que tengan relación a los ítems consumidos por el usuario y como también a partir de usuarios que tengan gustos similares. Problemas asociados a estos métodos son el coldstart y problemas con catálogos muy reducidos.
 * Otro tipo de sistemas recomendadores son los basados en contenido en donde se busca encontrar una similitud en los ítems a recomendar a partir de la información que contienen. Un ejemplo de esto puede ser en una plataforma donde los usuarios ven películas, nos encontremos con que a uno le gusten y vea muchas películas de terror, por lo que este género de cine promete ser un tópico relevante para generar nuevas recomendaciones. 
 * Los modelos latentes surgen a partir de la matriz de preferencia, corresponden a representaciones vectoriales de las calificaciones de los usuarios en un espacio vectorial de menor dimensión con los cuales se pueden hacer predicciones.
